@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<h1>Profile</h1>
+<div class="card p-4 shadow-sm mb-4">
+    <h2>Profile Summary</h2>
+    <p><strong>Username:</strong> {{ user_profile.username }}</p>
+    <p><strong>Age:</strong> {{ user_profile.age }}</p>
+    <p><strong>Gender:</strong> {{ user_profile.gender }}</p>
+    <p><strong>Device:</strong> {{ user_profile.device }}</p>
+    <p><strong>Disability:</strong> {{ user_profile.disability }}</p>
+    <p><strong>Time of Day:</strong> {{ user_profile.time_of_day }}</p>
+    <p><strong>Luminosity:</strong> {{ user_profile.luminosity }}</p>
+    <p>
+    <form action="/edit_profile" method="get" class="d-inline">
+        <button class="btn btn-outline-light btn-sm nav-link" type="submit">Edit Profile</button>
+    </form>
+    </div></p>
+    
+<div class="card p-4 shadow-sm">
+    <h2>Adaptations</h2>
+    <p><strong>Theme:</strong> {{ adaptations.theme }}</p>
+    <p><strong>Interaction:</strong> {{ adaptations.interaction }}</p>
+    <p><strong>Recommended Layout:</strong> {{ adaptations.layout }}</p>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,814 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/interface-adaptativa"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/interface-adaptativa">
+    <Prefix name="" IRI="http://www.semanticweb.org/interface-adaptativa"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="interface-adaptativa" IRI="http://www.semanticweb.org/interface-adaptativa#"/>
+    <Declaration>
+        <Class IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auditory_Disability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Average_Experience_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basic_Experience_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Browsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Captions_and_Transcripts_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognitive_Disability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Context_of_Use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contrast_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dark_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daytime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desktop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desktop_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education_Level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experience_Level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gesture_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Experience_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High_Light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interaction_Adaptation_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_Light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luminosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measurable_User_Profile_Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nighttime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Noise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nominal_User_Profile_Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Disability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quiet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RSI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Readable_Interface_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Screen_Reader_Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_Of_Day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Interface_Customization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Preferences_Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Profile_Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vision_Disability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Writing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Context_Of_Use"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Device"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Disability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Experience_Level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Hour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Luminosity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Time_Of_Day"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adult"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amputation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auditory_Disability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Average_Experience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basic_Experience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blindness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Browsing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Child"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Color_Vision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contrast_Sensitivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Daytime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Desktop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Field_Of_Vision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gesture_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Experience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Intellectual_Disability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Light_Sensitivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luminosity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mobile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Multiple_Sclerosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nighttime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Noise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Physical_Disability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quadriplegia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RSI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reading"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Senior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Time_Of_Day"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vision_Disability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_Acuity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Writing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Young"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#03"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Dark_Mode"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_Context_Of_Use"/>
+                    <Class IRI="#Daytime"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_Context_Of_Use"/>
+                    <Class IRI="#Low_Light"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_Context_Of_Use"/>
+                    <Class IRI="#Low_Light"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_Context_Of_Use"/>
+                    <Class IRI="#Nighttime"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Desktop_Mode"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Context_Of_Use"/>
+            <Class IRI="#Desktop"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gesture_Interaction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Disability"/>
+            <Class IRI="#RSI"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Light_Mode"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_Context_Of_Use"/>
+                    <Class IRI="#Daytime"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_Context_Of_Use"/>
+                    <Class IRI="#High_Light"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_Context_Of_Use"/>
+                    <Class IRI="#High_Light"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has_Context_Of_Use"/>
+                    <Class IRI="#Nighttime"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mobile_Mode"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_Context_Of_Use"/>
+            <Class IRI="#Mobile"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Context_of_Use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Age"/>
+        <Class IRI="#Measurable_User_Profile_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auditory_Disability"/>
+        <Class IRI="#Disability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Average_Experience_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basic_Experience_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Browsing"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Captions_and_Transcripts_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitive_Disability"/>
+        <Class IRI="#Disability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communication"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contrast_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dark_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daytime"/>
+        <Class IRI="#Time_Of_Day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desktop"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desktop_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disability"/>
+        <Class IRI="#Nominal_User_Profile_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education_Level"/>
+        <Class IRI="#Measurable_User_Profile_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Context_of_Use"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experience_Level"/>
+        <Class IRI="#Measurable_User_Profile_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gesture_Interaction"/>
+        <Class IRI="#Interaction_Adaptation_Mode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Experience_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High_Light"/>
+        <Class IRI="#Luminosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interaction_Adaptation_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loud"/>
+        <Class IRI="#Noise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_Light"/>
+        <Class IRI="#Luminosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luminosity"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measurable_User_Profile_Element"/>
+        <Class IRI="#User_Profile_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nighttime"/>
+        <Class IRI="#Time_Of_Day"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Noise"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nominal_User_Profile_Element"/>
+        <Class IRI="#User_Profile_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Disability"/>
+        <Class IRI="#Disability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quiet"/>
+        <Class IRI="#Noise"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RSI"/>
+        <Class IRI="#Physical_Disability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Readable_Interface_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reading"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screen_Reader_Mode"/>
+        <Class IRI="#User_Interface_Customization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Of_Day"/>
+        <Class IRI="#Environment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Gender"/>
+        <Class IRI="#Nominal_User_Profile_Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Language"/>
+        <Class IRI="#User_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Preferences_Profile"/>
+        <Class IRI="#User_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Profile_Element"/>
+        <Class IRI="#User_Profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vision_Disability"/>
+        <Class IRI="#Disability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Writing"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Dark_Mode"/>
+        <Class IRI="#Light_Mode"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Desktop"/>
+        <Class IRI="#Mobile"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Desktop_Mode"/>
+        <Class IRI="#Mobile_Mode"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Loud"/>
+        <Class IRI="#Quiet"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Age"/>
+        <NamedIndividual IRI="#Adult"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disability"/>
+        <NamedIndividual IRI="#Auditory_Disability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Experience_Level"/>
+        <NamedIndividual IRI="#Average_Experience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Experience_Level"/>
+        <NamedIndividual IRI="#Basic_Experience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Browsing"/>
+        <NamedIndividual IRI="#Browsing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age"/>
+        <NamedIndividual IRI="#Child"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Communication"/>
+        <NamedIndividual IRI="#Communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Daytime"/>
+        <NamedIndividual IRI="#Daytime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desktop"/>
+        <NamedIndividual IRI="#Desktop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gesture_Interaction"/>
+        <NamedIndividual IRI="#Gesture_Interaction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Experience_Level"/>
+        <NamedIndividual IRI="#High_Experience"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#High_Light"/>
+        <NamedIndividual IRI="#High_Light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disability"/>
+        <NamedIndividual IRI="#Intellectual_Disability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Low_Light"/>
+        <NamedIndividual IRI="#Low_Light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Environment"/>
+        <NamedIndividual IRI="#Luminosity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobile"/>
+        <NamedIndividual IRI="#Mobile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nighttime"/>
+        <NamedIndividual IRI="#Nighttime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Environment"/>
+        <NamedIndividual IRI="#Noise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disability"/>
+        <NamedIndividual IRI="#Physical_Disability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RSI"/>
+        <NamedIndividual IRI="#RSI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reading"/>
+        <NamedIndividual IRI="#Reading"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age"/>
+        <NamedIndividual IRI="#Senior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Environment"/>
+        <NamedIndividual IRI="#Time_Of_Day"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disability"/>
+        <NamedIndividual IRI="#Vision_Disability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Writing"/>
+        <NamedIndividual IRI="#Writing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Age"/>
+        <NamedIndividual IRI="#Young"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Context_Of_Use"/>
+        <NamedIndividual IRI="#User35"/>
+        <NamedIndividual IRI="#Browsing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Context_Of_Use"/>
+        <NamedIndividual IRI="#User35"/>
+        <NamedIndividual IRI="#Daytime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Context_Of_Use"/>
+        <NamedIndividual IRI="#User35"/>
+        <NamedIndividual IRI="#Desktop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Context_Of_Use"/>
+        <NamedIndividual IRI="#User35"/>
+        <NamedIndividual IRI="#High_Light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Disability"/>
+        <NamedIndividual IRI="#User35"/>
+        <NamedIndividual IRI="#RSI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Disability"/>
+        <NamedIndividual IRI="#02"/>
+        <NamedIndividual IRI="#Quadriplegia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Disability"/>
+        <NamedIndividual IRI="#03"/>
+        <NamedIndividual IRI="#Intellectual_Disability"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_Age"/>
+        <NamedIndividual IRI="#User35"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_Gender"/>
+        <NamedIndividual IRI="#User35"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_Hour"/>
+        <NamedIndividual IRI="#02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_Luminosity"/>
+        <NamedIndividual IRI="#02"/>
+        <Literal>Nighttime</Literal>
+    </DataPropertyAssertion>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#has_Context_Of_Use"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#has_Disability"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#has_Context_Of_Use"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#has_Disability"/>
+    </IrreflexiveObjectProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_Age"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_Gender"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_Language"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_Name"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Hour"/>
+        <Class IRI="#Context_of_Use"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Experience_Level"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Gender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Hour"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Luminosity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Time_Of_Day"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

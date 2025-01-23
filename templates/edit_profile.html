@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Profile{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="text-center mb-4">Edit Profile</h1>
+    <form method="POST" action="/edit_profile">
+        <div class="mb-3">
+            <label for="age" class="form-label">Age</label>
+            <input type="number" class="form-control" id="age" name="age" value="{{ user_profile.age }}" required>
+        </div>
+        <div class="mb-3">
+            <label for="gender" class="form-label">Gender</label>
+            <select class="form-control" id="gender" name="gender" required>
+                <option value="Male" {% if user_profile.gender == "Male" %}selected{% endif %}>Male</option>
+                <option value="Female" {% if user_profile.gender == "Female" %}selected{% endif %}>Female</option>
+                <option value="Other" {% if user_profile.gender == "Other" %}selected{% endif %}>Other</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="device" class="form-label">Device</label>
+            <select class="form-control" id="device" name="device" required>
+                <option value="Desktop" {% if user_profile.device == "Desktop" %}selected{% endif %}>Desktop</option>
+                <option value="Mobile" {% if user_profile.device == "Mobile" %}selected{% endif %}>Mobile</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="disability" class="form-label">Disability</label>
+            <select class="form-control" id="disability" name="disability">
+                <option value="None" {% if user_profile.disability == "None" %}selected{% endif %}>None</option>
+                <option value="RSI" {% if user_profile.disability == "RSI" %}selected{% endif %}>Repetitive Strain Injury (RSI)</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="time_of_day" class="form-label">Time of Day</label>
+            <select class="form-control" id="time_of_day" name="time_of_day" required>
+                <option value="Daytime" {% if user_profile.time_of_day == "Daytime" %}selected{% endif %}>Daytime</option>
+                <option value="Nighttime" {% if user_profile.time_of_day == "Nighttime" %}selected{% endif %}>Nighttime</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="luminosity" class="form-label">Luminosity</label>
+            <select class="form-control" id="luminosity" name="luminosity" required>
+                <option value="High_Light" {% if user_profile.luminosity == "High_Light" %}selected{% endif %}>High Light</option>
+                <option value="Low_Light" {% if user_profile.luminosity == "Low_Light" %}selected{% endif %}>Low Light</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Save Changes</button>
+    </form>
+</div>
+{% endblock %}
