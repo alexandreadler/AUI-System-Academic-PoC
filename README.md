@@ -22,7 +22,7 @@ Technologies Used:
 - Owlready2: Library for loading, querying, and reasoning over OWL ontologies.
 - Python: Core programming language for logic implementation.
 - HTML + Jinja2: Templates for rendering dynamic pages.
-- Ontology: Operational ontology (`ontoOADAPT.owl`) developed for UI adaptations.
+- Ontology: Operational ontology (`ontoOADAP1.1T.owl`) developed for UI adaptations.
 
 Installation:
 -------------
@@ -77,6 +77,6 @@ How It Works:
 ```python
 from owlready2 import get_ontology
 
-ontology_path = "ontology/ontoOADAPT_PoC.owl"  #Path to the ontology file
+ontology_path = "ontology/ontoOADAPT1.1.owl"  #Path to the ontology file
 ontology = get_ontology(ontology_path).load()  #Load the ontology
 

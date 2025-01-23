@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.secret_key = "adaptive_education_secret"
 
 # Carregar a ontologia operacional
-ontology_path = "ontology/ontoOADAPT_PoC.owl"  # Atualize o caminho correto
+ontology_path = "ontology/ontoOADAPT1.1.owl"  # Atualize o caminho correto
 ontology = get_ontology(ontology_path).load()
 
 # Simulação de banco de dados de usuários
