@@ -43,3 +43,40 @@ Run the Application:
    ```bash
    python app.py
 
+How It Works:
+-------------
+### User Profile
+- Users register by providing details such as:
+  - **Age**
+  - **Gender**
+  - **Disability**
+  - **Device**
+  - **Context of Use** (e.g., luminosity and time of day)
+- The system calculates **UI adaptations** dynamically based on the user's profile using the operational ontology.
+
+### Profile Page
+- Displays user information and dynamically determined **UI adaptations**:
+  - **Theme** (e.g., light or dark mode)
+  - **Interaction Mode** (e.g., standard or gesture interaction)
+  - **Layout** (e.g., mobile-optimized or desktop-optimized)
+- Users can update their profile through an **editable interface**.
+
+### Academic Content
+- Provides a curated list of **academic subjects** relevant to ontology and accessibility.
+- Adapts the interface to ensure better **readability** and **usability** based on the user's profile and context.
+
+### Ontology Integration
+- The operational ontology (`ontoOADAPT.owl`) is:
+  - Loaded and queried using the **Owlready2** library.
+  - Used to determine the most suitable adaptations for the user.
+- Adaptation logic is implemented in **Python**, applying rules derived from the ontology to adapt the UI at runtime.
+
+## Code Snippets
+
+### Loading the Operational Ontology
+```python
+from owlready2 import get_ontology
+
+ontology_path = "ontology/ontoOADAPT_PoC.owl"  #Path to the ontology file
+ontology = get_ontology(ontology_path).load()  #Load the ontology
+
