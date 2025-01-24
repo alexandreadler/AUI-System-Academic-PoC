@@ -1,0 +1,907 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#"
+     xml:base="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontoOADAPT="dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#">
+    <owl:Ontology rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#">
+        <owl:versionIRI rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#/1.0"/>
+        <rdfs:comment xml:lang="en">The ontology aims to establish a conceptualization to help understand and design AUI systems. The ontology aims to define the key concepts and relationships involved in systems with UI that can automatically adjust to different users&apos; needs, preferences, and contexts. By addressing specific aspects related to AUI systems, the ontology provides knowledge to support their development.</rdfs:comment>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <creator xml:lang="en">Alexandre Adler Cunha de Freitas and Monalessa Perini Barcellos</creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#SysSwO -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#SysSwO"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#UFO -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#UFO"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#creator -->
+
+    <owl:AnnotationProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#activates -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#activates"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#affects -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#affects"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#basedOn -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#basedOn"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#changes -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#changes"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#characterizedBy -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#characterizedBy"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#composedOf -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#composedOf"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#has -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#has"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#includes -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#includes"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#performs -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#performs"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#presentAt -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#presentAt"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Activity -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Activity">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Context_of_Use"/>
+        <rdfs:comment xml:lang="en">&quot;A user’s activity may have a specific location, time and context. The activity context is used to describe information about the users, tasks and goals.&quot; (Iqbal et al., 2021). @Ex.: Task Type (Reading, Writing).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ContUsO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Adaptive_User_Interface -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Adaptive_User_Interface">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface"/>
+        <rdfs:comment xml:lang="en">Focuses on the adaptive aspects of the user interface, managing the look and feel of the interface. Interface adapted to meet the needs of users. Based on user characteristics/difficulties.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Age -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Age">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Measurable_User_Profile_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Alert_Component -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Alert_Component">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Component_Program"/>
+        <rdfs:comment xml:lang="en">Represents alert components responsible for notifying the user about important events, required actions, or changes in the system. It can be presented in various formats, such as visual messages, audio, or vibration. @Ex.: Pop-up notifications, sound alerts, device vibrations, warning banners.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">UISCO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Audio_Input_Device -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Audio_Input_Device">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Input_Equipment"/>
+        <rdfs:comment xml:lang="en">Devices to capture voice commands or sounds from the environment. @Ex.: a virtual assistant that adjusts the response volume depending on the noise captured by the microphone.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">HCIO Interactive Computer System Sub-Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Audio_Output_Device -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Audio_Output_Device">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Output_Equipment"/>
+        <rdfs:comment xml:lang="en">Devices that allow interaction through audio feedback, such as sound alerts, speech output, and music playback. @Ex.: Speakers providing voice notifications in virtual assistants.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">HCIO Interactive Computer System Sub-Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Auditory_Disability -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Auditory_Disability">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Disability"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Average_Experience_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Average_Experience_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Basic_Experience_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Basic_Experience_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <owl:disjointWith rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#High_Experience_Mode"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Button_Component -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Button_Component">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Component_Program"/>
+        <rdfs:comment xml:lang="en">An interactive UI element designed to perform an action or trigger an event when the user interacts with it (usually by click, tap, or voice command). It can be represented by text, icons, or images, and can have different visual states to indicate its availability (active, deactivated, pressed). @Ex.: &quot;Submit&quot; button in forms, &quot;Play/Pause&quot; button in media players, &quot;Like&quot; icon in social networks.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">UISCO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Captions_and_Transcripts_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Captions_and_Transcripts_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Cognitive_Disability -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Cognitive_Disability">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Disability"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Context_of_Use -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Context_of_Use">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#activates"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#includes"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile_Element"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">&quot;Devices are used in various kinds of situation which changes dynamically according to particular context change. Small screen size, display, mobility, sensor, capacity, processor, memory, graphics, input and output functionalities affect the usage of interfaces and interaction&quot;. (IQBAL, 2021)</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ContUsO Ontology</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="en">subtypeOf Situation</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Contrast_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Contrast_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <owl:disjointWith rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Light_Mode"/>
+        <rdfs:comment xml:lang="en">Some people need high contrast between text and background, including many older people who lose contrast sensitivity from ageing. Some read better with dark text on light background. W3C Web Accessibility Initiative (WAI), 2025.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Dark_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Dark_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <owl:disjointWith rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Light_Mode"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Desktop_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Desktop_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <owl:disjointWith rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Mobile_Mode"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Disability -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Disability">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Nominal_User_Profile_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Education_Level -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Education_Level">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Measurable_User_Profile_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Environment -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Environment">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Context_of_Use"/>
+        <rdfs:comment xml:lang="en">It includes information about the physical environment in which the device is located, such as temperature, humidity, lighting, geographic location, among other relevant environmental factors. @Ex.: Light Level (Low, Medium, High), Noise Level (Quiet, Loud), Time Of Day (Day, Night).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ContUsO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Experience_Level -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Experience_Level">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Measurable_User_Profile_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Hardware_Equipment -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Hardware_Equipment">
+        <owl:disjointWith rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User"/>
+        <rdfs:isDefinedBy xml:lang="en">SysSwO</rdfs:isDefinedBy>
+        <UFO xml:lang="en">subtypeOf Object</UFO>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#High_Experience_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#High_Experience_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Input_Equipment -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Input_Equipment">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Hardware_Equipment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#presentAt"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Context_of_Use"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Hardware Equipment used to receive and transmit information or data from a User (input). E.g.: keyboard, mouse, sensors.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">HCIO Interactive Computer System Sub-Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Interaction_Adaptation_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Interaction_Adaptation_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Layout_Component -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Layout_Component">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Component_Program"/>
+        <rdfs:comment xml:lang="en">Structural UI element responsible for visually organizing and distributing other components (such as buttons, texts and images) in a logical and functional way. It defines the hierarchy, positioning and alignment of UI elements. @Ex.: product grid in e-commerce, column layout on websites, side navigation panels in applications, photo grid in image galleries and dashboard with organized graphics.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">UISCO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Light_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Light_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <rdfs:comment xml:lang="en">Some people need low brightness, especially for backgrounds. Some people who need low brightness for backgrounds also need low brightness overall and thus need low brightness text. W3C Web Accessibility Initiative (WAI), 2025.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Measurable_User_Profile_Element -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Measurable_User_Profile_Element">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Media_Component -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Media_Component">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Component_Program"/>
+        <rdfs:comment xml:lang="en">Represents any multimedia element that composes or integrates a system or interface. @Ex.: Video components: multimedia element for displaying videos; Images: component for displaying static images; Text elements: displaying plain or formatted text.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">UISCO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Mobile_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Mobile_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Nominal_User_Profile_Element -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Nominal_User_Profile_Element">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Output_Equipment -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Output_Equipment">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Hardware_Equipment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#presentAt"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Context_of_Use"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Hardware Equipment used to transmit or display information or data, communicating output to Users. E. g.: Monitor, speaker, etc.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">HCIO Interactive Computer System Sub-Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Physical_Disability -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Physical_Disability">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Disability"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Readable_Interface_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Readable_Interface_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Screen_Reader_Mode -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Screen_Reader_Mode">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization"/>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Status_Indicator_Component -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Status_Indicator_Component">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Component_Program"/>
+        <rdfs:comment xml:lang="en">A UI element used to inform the user about the current state of a system, process, or device. It may use visual, audible, or tactile representations to communicate progress, availability, or health alerts. @Ex.: download progress bar, LED light indicating battery charge, &quot;online/offline&quot; status in applications, and processing indicators in systems.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">UISCO Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#characterizedBy"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile_Element"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#has"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Age"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#has"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Disability"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A Person who interacts with (or is expected to interact with) an Interactive Computer System. E.g., a person who uses a home banking system, smart watch or smart mobile phone.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">HCIO User Sub-Ontology</rdfs:isDefinedBy>
+        <UFO xml:lang="en">subtypeOf Person</UFO>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Gender -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Gender">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Nominal_User_Profile_Element"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#composedOf"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Input_Equipment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#composedOf"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Output_Equipment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">All components of an interactive system (software or hardware) that provide information and controls for the user to accomplish specific tasks with the interactive system. E.g., mouse, keyboard, monitor, sensors and the software that handle them.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">HCIO Interactive Computer System Sub-Ontology</rdfs:isDefinedBy>
+        <UFO xml:lang="en">subtypeOf Object</UFO>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Component_Program -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Component_Program">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Program"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#changes"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Adaptive_User_Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#composedOf"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Program"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Component interface code, which generates elements and contents that will be used in the interface. E. g., development of interface and front-end components for websites/web applications/systems using HTML, CSS and JavaScript.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">UISCO Ontology</rdfs:isDefinedBy>
+        <UFO xml:lang="en">subtypeOf Substantial Universal</UFO>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Customization">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#affects"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Adaptive_User_Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#basedOn"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile_Element"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#performs"/>
+                <owl:someValuesFrom rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Component_Program"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Refers to the customizations (i.e., adaptations) that must be made to the system interface for a given user, based on information from the Context of Use (environment, device, situation, etc) and the User Profile (skills, limitations, etc).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">AUISO Ontology</rdfs:isDefinedBy>
+        <UFO xml:lang="en">subtypeOf Disposition</UFO>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Program -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Interface_Program">
+        <rdfs:comment xml:lang="en">Program that deals with aspects related to the User Interface. E.g., the program responsible for the graphical user interface of the component that captures the user fingerprint to unlock a mobile phone.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">HCIO Interactive Computer System Sub-Ontology</rdfs:isDefinedBy>
+        <SysSwO xml:lang="en">subtypeOf Program
+Program subtypeOf Software Item</SysSwO>
+        <UFO xml:lang="en">Software Item subtypeOf Object</UFO>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile_Element -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile_Element">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User_Profile"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Vision_Disability -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Vision_Disability">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Disability"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Visual_Input_Device -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Visual_Input_Device">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Input_Equipment"/>
+        <rdfs:comment xml:lang="en">Devices that allow interaction through visual data, such as gesture detection, movement and object recognition. @Ex.: Webcam detecting body movements and gestures for touchless interaction.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">HCIO Interactive Computer System Sub-Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Visual_Output_Device -->
+
+    <owl:Class rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Visual_Output_Device">
+        <rdfs:subClassOf rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Output_Equipment"/>
+        <rdfs:comment xml:lang="en">Devices that present visual information to users through images, text, or videos. @Ex.: Monitors displaying user interfaces and projectors presenting visual content.</rdfs:comment>
+        <rdfs:isDefinedBy>HCIO Interactive Computer System Sub-Ontology</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Adult -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Adult"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Amputation -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Amputation"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Auditory_Disability -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Auditory_Disability"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Average_Experience -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Average_Experience"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Basic_Experience -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Basic_Experience"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Blindness -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Blindness"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Browsing -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Browsing"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Child -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Child"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Color_Vision -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Color_Vision"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Communication -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Communication"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Contrast_Sensitivity -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Contrast_Sensitivity"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Daytime -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Daytime"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Desktop -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Desktop"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Female -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Female"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Field_Of_Vision -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Field_Of_Vision"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Gesture_Interaction -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Gesture_Interaction"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#High_Experience -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#High_Experience"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#High_Light -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#High_Light"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Intellectual_Disability -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Intellectual_Disability"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Light_Sensitivity -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Light_Sensitivity"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Low_Light -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Low_Light"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Luminosity -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Luminosity"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Male -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Male"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Mobile -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Mobile"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Multiple_Sclerosis -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Multiple_Sclerosis"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Nighttime -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Nighttime"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Noise -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Noise"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Other -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Other"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Physical_Disability -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Physical_Disability">
+        <rdf:type rdf:resource="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Physical_Disability"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Quadriplegia -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Quadriplegia"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#RSI -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#RSI"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Reading -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Reading"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Senior -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Senior"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Time_Of_Day -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Time_Of_Day"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User34 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#User34"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Vision_Disability -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Vision_Disability"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Visual_Acuity -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Visual_Acuity"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Writing -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Writing"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Young -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#Young"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#02 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#02"/>
+    
+
+
+    <!-- urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#03 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:dev.nemo.inf.ufes.br/oadapt/ontoOADAPT.owl#03"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
